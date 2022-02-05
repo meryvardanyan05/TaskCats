@@ -1,0 +1,42 @@
+.sideBar{
+    max-width: 200px;
+    width: 100%;
+    background-color: #f3f3f3;
+    border-bottom-right-radius:8px ;
+    border-top-right-radius: 8px;
+    margin-right: 20px;
+    max-height: 460px;
+
+
+}
+.sideBarContent{
+    width: 100%;
+}
+.sideBarList{
+    list-style: none;
+    padding: 0;
+    
+}
+.sideBarListItem{
+    font-size: 16px;
+    padding: 20px 20px;
+    text-align: right;
+    font-weight: 500;
+    
+}
+.sideBarListItem:hover{
+    background-color: #ebe2e2;
+}
+.sideBarListItemLink{
+    text-decoration: none;
+    text-transform: capitalize;
+    color:#726a67;
+}
+
+@media only screen and (max-width:991px){
+    .sideBar{
+       max-width: 140px;
+       margin-right: 10px;
+
+    }
+}

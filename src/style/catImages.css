@@ -1,0 +1,37 @@
+.container{
+    margin:10px -20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.catImage{
+    width: 28%;
+    height: 300px;
+    object-fit: cover;
+    padding:20px
+}
+
+@media only screen and (max-width:1400px){
+    .container{
+        justify-content: center;
+    }
+    .catImage{
+        width: 40%;
+    }
+}
+@media only screen and (max-width:991px){
+  
+    .catImage{
+        width: 70%;
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width:600px){
+  
+    .catImage{
+        width: 80%;
+        height: 200px;
+    }
+}
